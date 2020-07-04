@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main {
+    background: #292b30;
+    color: #fff;
+}
+
+.main-bg {
+    background: #292b30;
+    color: #fff;
+}
+
+.main input {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: #333439;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 5px;
+    color: #4cbfbf;
+}
+
+.side {
+    background-color: #232426;
+    color: #fff;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.75);
+}
+
+.content-header {
+    font-weight: bold;
+    color: #f9b800;
+}
+
+.main .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid #FFF;
+}
+
+.tab {
+    background: linear-gradient(to left, #81eafd, #2c6693);
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+#chartdiv {
+    width: 100%;
+    height: 300px;
+    background-color: #25262b;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.pill {
+    border: 2px solid #e3e3e3;
+    border-radius: 10px;
+    /* height: 175px;
+    line-height: 175px;
+    width: 175px; */
+    text-align: center;
+    position:relative;
+    background:#fff;
+}
+
+.pill:after{
+    position:absolute;
+    content:"";
+    width:110%;
+    height:110%;
+    background:linear-gradient(142deg, #81eafd, #2c6693);
+    top:-5%;
+    left:-5%;
+    z-index:-1;
+    border-radius:10px;
+}
+
+.mega {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.grey-text{
+    color:#616365
+}
