@@ -5,7 +5,7 @@
   "dependencies": {
     "@amcharts/amcharts4": "^4.9.28",
     "bootstrap": "^4.5.0",
-    "nodemailer": "^4.6.7",
+    "nodemailer": "^6.4.16",
     "react": "^16.4.0",
     "react-circular-progressbar": "^2.0.3",
     "react-dom": "^16.4.0",
