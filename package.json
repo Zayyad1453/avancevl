@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@amcharts/amcharts4": "^4.9.28",
+    "@amcharts/amcharts4": "^4.10.28",
     "bootstrap": "^4.5.0",
     "nodemailer": "^4.6.7",
     "react": "^16.4.0",
